@@ -37,7 +37,7 @@ function FormularioLivro() {
         />
 
         <CampoTexto
-          label="autor"
+          label="Autor"
           name="autor"
           value={autor}
           onChange={(evento) => setautor(evento.target.value)}
@@ -45,7 +45,7 @@ function FormularioLivro() {
         />
 
         <CampoTexto
-          label="ano de publicação"
+          label="Ano de Publicação"
           name="anopublicação"
           value={anopublicação}
           onChange={(evento) => setanopublicação(evento.target.value)}
@@ -53,7 +53,7 @@ function FormularioLivro() {
         />
 
         <CampoTexto
-          label="genero"
+          label="Gênero"
           name="genero"
           value={genero}
           onChange={(evento) => setgenero(evento.target.value)}
@@ -64,7 +64,7 @@ function FormularioLivro() {
       </form>
 
       <div className="formulario-livro-lista">
-        <h2>livros cadastrados</h2>
+        <h2>Livros cadastrados</h2>
 
         {livros.length === 0 && <p>Nenhum livro cadastrado ainda.</p>}
 
